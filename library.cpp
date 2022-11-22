@@ -21,7 +21,8 @@ Cdec operator+=(Cdec& gg, const Cdec& wp)
 Cdec operator+(Cdec& gg, const Cdec& wp)
 {
   Cdec ans = gg;
-  ans += wp;
+  ans += wp.re;
+  ans=wp.im;
   return ans;
 }
 
@@ -35,7 +36,8 @@ Cdec operator-=(Cdec& gg, const Cdec& wp)
 Cdec operator-(Cdec& gg, const Cdec& wp)
 {
   Cdec ans = gg;
-  ans -= wp;
+  ans.re -= wp.re;
+  ans.im-=wp.im;
   return ans;
 }
 
