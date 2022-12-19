@@ -66,10 +66,4 @@ Cdec operator/(Cdec& gg, const Cdec& wp){
     
     
 }
-int main(){
-    Cdec r0_mouse{0,6};
-    Cdec r0_car{8,0};
-    int v0_cat=2;
-    int v0_mouse=1;
-    
-}
+
