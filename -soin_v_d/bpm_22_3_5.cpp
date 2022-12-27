@@ -9,11 +9,11 @@ int main()
 {
 	std::vector <int> a;
 	std::vector <int> b;
+	int ch=0;
 	 
 	
-	while () {
-		int ch = 0;
-		std::cin >> ch;
+	while (std::cin>>ch) {
+		
 
 
 		if (ch <= 9) {
