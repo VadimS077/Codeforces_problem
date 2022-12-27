@@ -12,9 +12,9 @@ int main()
 	int ch=0;
 	 
 	
-	while (std::cin>>ch) {
+	while () {
 		
-
+		std::cin>>ch;
 
 		if (ch <= 9) {
 			a.push_back(ch);
